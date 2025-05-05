@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #FF862A; /*define uma variavel CSS para cor laranja*/
+}
+
+body{
+    font-size: 16px; /*definir o tamanho da fonte base*/
+    font-family: 'montserrat';/*define o tamanho da fonte principal do site*/
+}
+
+  /*Estilo do Cabeçalho*/
+
+  header {
+    background-color: #ffffff;/* Fundo branco para o cabeçalho*/
+  }
+  section {
+    padding-bottom: 5rem;
+  }
+  .nav-link{
+    color:#CB6D43;
+    font-weight: 600;
+  }
+  .inicio-fundo {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    background-position: right;
+  }
